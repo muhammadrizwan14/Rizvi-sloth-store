@@ -1,0 +1,17 @@
+.foot_p{
+    height: 5rem;
+     display: flex;
+     flex-direction: column;
+     -webkit-box-pack: center;
+       justify-content: center;
+     -webkit-box-align: center;
+    align-items: center;
+     background: #222;
+     text-align: center;
+     color: white;
+   
+}
+.foot_span{
+    color: #ab7a5f;
+    margin: 0px 5px;
+}

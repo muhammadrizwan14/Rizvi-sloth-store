@@ -1,0 +1,12 @@
+.imgbottom{
+    margin-top: -165px;
+     margin-left: -50px;
+       display: flex;
+  align-items: flex-start;
+
+}
+.img-top{
+  align-items: flex-end;
+  width: 100%;
+ display: flex;
+}
