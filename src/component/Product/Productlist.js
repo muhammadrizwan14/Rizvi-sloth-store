@@ -1,4 +1,5 @@
 import { Grid } from '@mui/material'
+import { Box } from '@mui/system'
 import React from 'react'
 import List from './List'
 function Productlist() {
@@ -8,9 +9,16 @@ function Productlist() {
               List.map((item) => {
                   return (
 
-                      <Grid item xs={4} p={2}  >
-                          <img src={item.ImageURL} alt='hh' width={"100%"} height={"225px"} />
-                          <span>{item.h1} </span>   <span className='feat_span'>{item.p}</span>
+                      <Grid item p={2} sx={{ xs: 12, sm: 6, md: 6, lg: 4 }}  >
+                          <Box sx={{width:'300px'}}>
+                              <img src={item.ImageURL} alt='hh' width={"100%"} height={"175px"} />  
+                          </Box>
+                         
+                          <span >{item.h1} </span> <span style={{
+                              color:' #ab7a5f',
+                              display: 'flex',
+                              float: 'right'
+                          }}>{item.p}</span>
                       </Grid>
                   )
               })
