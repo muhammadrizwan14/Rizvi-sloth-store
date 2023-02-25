@@ -1,4 +1,4 @@
-const List = [
+const Listdata = [
     {
         id: 1,
         ImageURL: require("./image/p1.jfif"),
@@ -162,4 +162,4 @@ const List = [
 ]
 
 
-export default List;
+export default Listdata;
